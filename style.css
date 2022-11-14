@@ -1,4 +1,3 @@
-/*===GERAL============================*/
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +5,66 @@
 }
 
 :root {
+  font-family: 'roboto', sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-color: rgb(224, 219, 219);
+}
+
+header {
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+header div img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.carrosel {
+  width: 500px;
+  margin-top: 40px;
+  border-radius: 6px;
+}
+
+header h2 {
+  margin-top: 40px;
+  color: white;
+}
+
+main {
+  width: 100vw;
+  margin-top: 170px;
+}
+
+main div {
+  padding-inline: 20px;
+}
+
+main div ul li {
+  list-style: none;
+}
+
+main div h1 {
+  margin-bottom: 10px;
+}
+
+main div h2 {
+  margin-bottom: 10px;
+}
+
+main div ul {
+  margin-bottom: 10px;
+}
+
+/*  :root {
   --hue: 190;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
@@ -17,17 +76,17 @@
   --brand-greenhover: hsl(var(--hue), 100%, 14%);
 
   font-size: 62.5%;
-  /* 1rem = 10px */
-  /* (10*100)/16 = 62,5 */
-}
+ 
+} */
 
 /*===BREAKING POINTS============================*/
 
-@media (min-width: 481px) {
+/* @media (min-width: 481px) {
 }
 
 @media (min-width: 769px) {
 }
 
 @media (min-width: 1279px) {
-}
+} 
+ */
